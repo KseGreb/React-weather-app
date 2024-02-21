@@ -12,13 +12,11 @@ const WeatherResults = ({weatherData}) => (
         <p className="day">{moment().format('LL')}</p>
       </div>
 
-      <div className="flex">
+      <div className="flex-data">
         <p className="temp">Temprature: {Math.round(weatherData.main.temp)} &deg;C</p>
         <p className="temp">Feels like: {Math.round(weatherData.main.feels_like)} &deg;C</p>
         <p className="temp">Humidity: {weatherData.main.humidity} %</p>
       </div>
-      
-      
   </div>
 )
 

@@ -1,13 +1,21 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap'); */
 
+.App{
+  display: flex;
+  justify-content: center;
+}
+
 .main{
-  width: 400px;
-  border-radius: 15px;
+  width: 600px;
+  /* border-radius: 15px; */
   background-color: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
 }
 
 .header{
+  text-align: center;
   background-color: #c92205;
   color: white;
   padding: 10px;
@@ -34,6 +42,9 @@
 .flex{
   display: flex;
   justify-content: space-between;
+}
+.flex-data{
+align-self: center;
 }
 
 @media screen and (max-width: 1200px) {
